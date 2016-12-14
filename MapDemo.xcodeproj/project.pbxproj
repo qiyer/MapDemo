@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		981BDF721DF8117100114049 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDF711DF8117100114049 /* main.m */; };
 		981BDF751DF8117100114049 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDF741DF8117100114049 /* AppDelegate.m */; };
-		981BDF781DF8117100114049 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDF771DF8117100114049 /* ViewController.m */; };
-		981BDF7B1DF8117100114049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981BDF791DF8117100114049 /* Main.storyboard */; };
 		981BDF7D1DF8117100114049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981BDF7C1DF8117100114049 /* Assets.xcassets */; };
 		981BDF801DF8117100114049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981BDF7E1DF8117100114049 /* LaunchScreen.storyboard */; };
+		981BDF891DF8123600114049 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDF881DF8123600114049 /* MapViewController.m */; };
+		981BDF8D1DF817F100114049 /* QYAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDF8C1DF817F100114049 /* QYAnnotation.m */; };
+		981BDF901DF8185D00114049 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDF8F1DF8185D00114049 /* MKMapView+ZoomLevel.m */; };
+		981BDF931DF81AB200114049 /* DestinationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 981BDF921DF81AB200114049 /* DestinationMode.m */; };
+		9824A3031DF8332B003791FC /* common_map_site@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9824A3011DF8332B003791FC /* common_map_site@2x.png */; };
+		9824A3051DF833AA003791FC /* common_green_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9824A3041DF833AA003791FC /* common_green_line@2x.png */; };
+		98D182F91DFEDFEE0014BA1D /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D182F81DFEDFEE0014BA1D /* MYViewController.m */; };
+		98D182FD1DFEE3AF0014BA1D /* AATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D182FB1DFEE3AF0014BA1D /* AATableViewCell.m */; };
+		98D182FE1DFEE3AF0014BA1D /* AATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D182FC1DFEE3AF0014BA1D /* AATableViewCell.xib */; };
+		98D183011DFEE3C30014BA1D /* BBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D183001DFEE3C30014BA1D /* BBTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,26 @@
 		981BDF711DF8117100114049 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		981BDF731DF8117100114049 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		981BDF741DF8117100114049 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		981BDF761DF8117100114049 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		981BDF771DF8117100114049 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		981BDF7A1DF8117100114049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		981BDF7C1DF8117100114049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981BDF7F1DF8117100114049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		981BDF811DF8117100114049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981BDF871DF8123600114049 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		981BDF881DF8123600114049 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		981BDF8B1DF817F100114049 /* QYAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYAnnotation.h; sourceTree = "<group>"; };
+		981BDF8C1DF817F100114049 /* QYAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYAnnotation.m; sourceTree = "<group>"; };
+		981BDF8E1DF8185D00114049 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		981BDF8F1DF8185D00114049 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		981BDF911DF81AB200114049 /* DestinationMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationMode.h; sourceTree = "<group>"; };
+		981BDF921DF81AB200114049 /* DestinationMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationMode.m; sourceTree = "<group>"; };
+		9824A3011DF8332B003791FC /* common_map_site@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "common_map_site@2x.png"; path = "image/common_map_site@2x.png"; sourceTree = "<group>"; };
+		9824A3041DF833AA003791FC /* common_green_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "common_green_line@2x.png"; path = "image/common_green_line@2x.png"; sourceTree = "<group>"; };
+		98D182F71DFEDFEE0014BA1D /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		98D182F81DFEDFEE0014BA1D /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		98D182FA1DFEE3AF0014BA1D /* AATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATableViewCell.h; sourceTree = "<group>"; };
+		98D182FB1DFEE3AF0014BA1D /* AATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATableViewCell.m; sourceTree = "<group>"; };
+		98D182FC1DFEE3AF0014BA1D /* AATableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AATableViewCell.xib; sourceTree = "<group>"; };
+		98D182FF1DFEE3C30014BA1D /* BBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTableViewCell.h; sourceTree = "<group>"; };
+		98D183001DFEE3C30014BA1D /* BBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +80,18 @@
 		981BDF6F1DF8117100114049 /* MapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9824A2FF1DF83313003791FC /* image */,
+				981BDF8A1DF817C000114049 /* map */,
 				981BDF731DF8117100114049 /* AppDelegate.h */,
 				981BDF741DF8117100114049 /* AppDelegate.m */,
-				981BDF761DF8117100114049 /* ViewController.h */,
-				981BDF771DF8117100114049 /* ViewController.m */,
-				981BDF791DF8117100114049 /* Main.storyboard */,
+				981BDF871DF8123600114049 /* MapViewController.h */,
+				981BDF881DF8123600114049 /* MapViewController.m */,
 				981BDF7C1DF8117100114049 /* Assets.xcassets */,
 				981BDF7E1DF8117100114049 /* LaunchScreen.storyboard */,
 				981BDF811DF8117100114049 /* Info.plist */,
 				981BDF701DF8117100114049 /* Supporting Files */,
+				98D182F71DFEDFEE0014BA1D /* MYViewController.h */,
+				98D182F81DFEDFEE0014BA1D /* MYViewController.m */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";
@@ -77,6 +102,33 @@
 				981BDF711DF8117100114049 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		981BDF8A1DF817C000114049 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				981BDF8B1DF817F100114049 /* QYAnnotation.h */,
+				981BDF8C1DF817F100114049 /* QYAnnotation.m */,
+				981BDF8E1DF8185D00114049 /* MKMapView+ZoomLevel.h */,
+				981BDF8F1DF8185D00114049 /* MKMapView+ZoomLevel.m */,
+				981BDF911DF81AB200114049 /* DestinationMode.h */,
+				981BDF921DF81AB200114049 /* DestinationMode.m */,
+				98D182FA1DFEE3AF0014BA1D /* AATableViewCell.h */,
+				98D182FB1DFEE3AF0014BA1D /* AATableViewCell.m */,
+				98D182FC1DFEE3AF0014BA1D /* AATableViewCell.xib */,
+				98D182FF1DFEE3C30014BA1D /* BBTableViewCell.h */,
+				98D183001DFEE3C30014BA1D /* BBTableViewCell.m */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
+		9824A2FF1DF83313003791FC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9824A3041DF833AA003791FC /* common_green_line@2x.png */,
+				9824A3011DF8332B003791FC /* common_map_site@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +162,7 @@
 				TargetAttributes = {
 					981BDF6C1DF8117100114049 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 798448LT87;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,8 +191,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				981BDF801DF8117100114049 /* LaunchScreen.storyboard in Resources */,
+				9824A3051DF833AA003791FC /* common_green_line@2x.png in Resources */,
+				9824A3031DF8332B003791FC /* common_map_site@2x.png in Resources */,
 				981BDF7D1DF8117100114049 /* Assets.xcassets in Resources */,
-				981BDF7B1DF8117100114049 /* Main.storyboard in Resources */,
+				98D182FE1DFEE3AF0014BA1D /* AATableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +205,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981BDF781DF8117100114049 /* ViewController.m in Sources */,
+				981BDF901DF8185D00114049 /* MKMapView+ZoomLevel.m in Sources */,
+				98D183011DFEE3C30014BA1D /* BBTableViewCell.m in Sources */,
+				98D182FD1DFEE3AF0014BA1D /* AATableViewCell.m in Sources */,
+				98D182F91DFEDFEE0014BA1D /* MYViewController.m in Sources */,
+				981BDF891DF8123600114049 /* MapViewController.m in Sources */,
 				981BDF751DF8117100114049 /* AppDelegate.m in Sources */,
+				981BDF8D1DF817F100114049 /* QYAnnotation.m in Sources */,
 				981BDF721DF8117100114049 /* main.m in Sources */,
+				981BDF931DF81AB200114049 /* DestinationMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		981BDF791DF8117100114049 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				981BDF7A1DF8117100114049 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		981BDF7E1DF8117100114049 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,7 +323,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 798448LT87;
 				INFOPLIST_FILE = MapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qiye.MapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +337,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 798448LT87;
 				INFOPLIST_FILE = MapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qiye.MapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +365,7 @@
 				981BDF861DF8117100114049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
