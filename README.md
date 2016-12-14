@@ -11,9 +11,9 @@ iOS开发有时候用到地图，不少人第一想到的是用第三方。当�
 具体使用见demo吧！
 
 ##效果图:
-![image](http://images2015.cnblogs.com/blog/276994/201612/276994-20161207201913116-1793112857.png)
-
-![image](http://images2015.cnblogs.com/blog/276994/201612/276994-20161207201927319-1295553297.png)
+ <img src="http://images2015.cnblogs.com/blog/276994/201612/276994-20161207201913116-1793112857.png" width = "375" height = "600" alt="图片名称" align=center />
+ 
+  <img src="http://images2015.cnblogs.com/blog/276994/201612/276994-20161207201927319-1295553297.png" width = "375" height = "600" alt="图片名称" align=center />
 
 ##联系交流：
 [![Join the chat at http://www.cnblogs.com/qiyer/](https://github.com/qiyer/UUDatePicker_Demo/blob/master/博客园.png)](http://www.cnblogs.com/qiyer/)[![Join the chat at http://bbs.9ria.com/space-uid-106435.html](https://github.com/qiyer/UUDatePicker_Demo/blob/master/天地会.png)](http://bbs.9ria.com/space-uid-106435.html)
